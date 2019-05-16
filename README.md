@@ -2,7 +2,7 @@
 The base dependencies that I usually use on my mvn JEE projects
 
 To avoid download maven dependencies over and over on ever build to your maven project on docker,
-you can buil you project from this image.
+you can build you project from this image.
 
 Your Dokerfile will look like this:
 
