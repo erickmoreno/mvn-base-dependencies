@@ -19,3 +19,20 @@ Your Dokerfile will look like this:
 #  
  FROM jboss/wildfly:16.0.0.Final
 ```
+This image already pack lots of maven plugins and these explicit dependencies:
+
+   <groupId>javax</groupId>
+   <artifactId>javaee-api</artifactId>
+   <version>8.0</version>
+
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+   <version>1.18.6</version>
+
+   <groupId>com.fasterxml.jackson.core</groupId>
+   <artifactId>jackson-databind</artifactId>
+   <version>2.9.8</version>
+
+   <groupId>org.yaml</groupId>
+   <artifactId>snakeyaml</artifactId>
+   <version>1.24</version>
