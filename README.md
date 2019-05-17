@@ -13,7 +13,7 @@ This image is util to avoid download maven dependencies over and over on every b
 
 Your Dokerfile will look like this:
 
-```
+```Dockerfile
 #
 # Build stage
 #
