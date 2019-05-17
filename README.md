@@ -1,8 +1,15 @@
-# mvn-base-dependencies
-The base dependencies that I usually use on my mvn JEE projects
+# Maven base dependencies
+[![Docker Build Status](https://img.shields.io/docker/build/erickmoreno/mvn-base-dependencies.svg)](https://hub.docker.com/r/erickmoreno/mvn-base-dependencies/)
+[![Docker Automated build](https://img.shields.io/docker/automated/erickmoreno/mvn-base-dependencies.svg)](https://hub.docker.com/r/erickmoreno/mvn-base-dependencies/)
 
-To avoid download maven dependencies over and over on ever build to your maven project on docker,
-you can build you project from this image.
+## About
+The base dependencies that I usually need to build mvn JEE projects
+
+This image is util to avoid download maven dependencies over and over on every build to a maven project on docker.
+
+### Requirements
+
+- [Docker](https://docs.docker.com/engine/installation/) (including docker-compose)
 
 Your Dokerfile will look like this:
 
