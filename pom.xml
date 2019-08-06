@@ -19,6 +19,10 @@
 
 	<properties>
 		<build.version>0.0.0.3-SNAPSHOT</build.version>
+		<javaee.version>8.0</javaee.version>
+		<lombok.version>1.18.6</lombok.version>
+		<jackson.version>2.9.9.3</jackson.version>
+		<snakeyaml.version>1.24</snakeyaml.version>
 	</properties>
 
 	<dependencies>
@@ -35,25 +39,25 @@
 			<dependency>
 				<groupId>javax</groupId>
 				<artifactId>javaee-api</artifactId>
-				<version>8.0</version>
+				<version>${javaee.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
-				<version>1.18.6</version>
+				<version>${lombok.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
-				<version>2.9.9.1</version>
+				<version>${jackson.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
-				<version>1.24</version>
+				<version>${snakeyaml.version}</version>
 			</dependency>
 
 			<dependency>
